@@ -1,0 +1,287 @@
+::selection {
+  background-color: #00b39b;
+  color: white;
+}
+body {
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+}
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 1015px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+#linksNav a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#AboutUs {
+  color: #66d1c3;
+}
+#Career {
+  color: #aeaeae;
+}
+#Departments {
+  color: #aeaeae;
+}
+#Career:hover {
+  color: #66d1c3;
+}
+#Departments:hover {
+  color: #66d1c3;
+}
+
+#FirstSectionTextDiv {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.FirstSectionText {
+  text-align: center;
+  width: 497.5px;
+}
+
+main {
+  text-align: center;
+  width: 1015px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Section1 h1 {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 2.125rem;
+  color: #66d1c3;
+}
+
+p {
+  color: #c5c5c5;
+}
+
+h1 {
+  color: white;
+}
+
+#Section2Div1 {
+  background-color: #12cfb6;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+#Section2Div2 {
+  background-color: #3d83df;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+#Section2Div3 {
+  background-color: #1b2734;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+#Section2Div1:hover {
+  background-color: #12cfb6d6;
+}
+
+#Section2Div2:hover {
+  background-color: #3d83dfd3;
+}
+
+#Section2Div3:hover {
+  background-color: #1b2734d3;
+}
+
+#Section2 {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 115px;
+}
+
+#Section2 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 115px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+select {
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  text-decoration: underline;
+  color: white;
+}
+
+option {
+  color: black;
+}
+
+#Section3 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 115px;
+  color: #66d1c3;
+  margin-right: 200px;
+}
+
+#Section3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#Section4 {
+  background-color: #d7f5f5;
+}
+
+#Section4 h1 {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 2.125rem;
+  color: #66d1c3;
+}
+
+#Section4 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #66d1c3;
+}
+
+.SectionDivs {
+  width: 30%;
+  height: 40%;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+#Section4 {
+  height: 750px;
+}
+#Section4Content {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#SectionDiv2 {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 750px;
+  margin-left: 120px;
+}
+#SectionDiv1 {
+  width: 40%;
+  text-align: left;
+}
+#SectionDiv1 img {
+  margin-left: -80px;
+  margin-top: 160px;
+}
+
+#Section5 h1 {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 2.125rem;
+  color: #66d1c3;
+}
+
+#Section5Text {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Post {
+  background-color: white;
+  margin: 10px;
+  text-align: left;
+}
+
+.Post:hover {
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.Post h2 {
+  margin: 0;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: #3c82df;
+  color: white;
+  border-color: #66d1c300;
+}
+
+button:hover {
+  background-color: white;
+  color: #3c82df;
+}
+
+#Section5LastDiv {
+  margin-top: 160px;
+  margin-bottom: 120px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+/*  
+  color: #66d1c3;
+  color: #aeaeae;
+*/
